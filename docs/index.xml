@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GEB2503 Smart City Blog</title>
-    <link>http://example.org/</link>
+    <link>https://president810.github.io/GEB2503_Project/</link>
     <description>Recent content on GEB2503 Smart City Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Dec 2020 20:57:16 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://president810.github.io/GEB2503_Project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>YSCB: Yahoo Cloud Serving Benchmark</title>
-      <link>http://example.org/yscb/</link>
+      <link>https://president810.github.io/GEB2503_Project/yscb/</link>
       <pubDate>Tue, 01 Dec 2020 20:57:16 +0800</pubDate>
       
-      <guid>http://example.org/yscb/</guid>
+      <guid>https://president810.github.io/GEB2503_Project/yscb/</guid>
       <description>YSBC Overview The Yahoo! Cloud Serving Benchmark (YCSB) is an open-source specification and program suite for evaluating retrieval and maintenance capabilities of computer programs. It is often used to compare relative performance of NoSQL database management systems.
 The original benchmark was developed by workers in the research division of Yahoo! who released it in 2010 with the stated goal of &amp;ldquo;facilitating performance comparisons of the new generation of cloud data serving systems&amp;rdquo;, particularly for transaction-processing workloads which differed from ones measured by benchmarks designed for more traditional database management systems.</description>
     </item>
     
     <item>
       <title>HiBench: a Big Data Benchmark Suite</title>
-      <link>http://example.org/hibench/</link>
+      <link>https://president810.github.io/GEB2503_Project/hibench/</link>
       <pubDate>Tue, 01 Dec 2020 20:51:41 +0800</pubDate>
       
-      <guid>http://example.org/hibench/</guid>
+      <guid>https://president810.github.io/GEB2503_Project/hibench/</guid>
       <description>HiBench Overview HiBench is a big data benchmark suite that helps evaluate different big data frameworks in terms of speed, throughput and system resource utilizations. It contains a set of Hadoop, Spark and streaming workloads, including Sort, WordCount, TeraSort, Repartition, Sleep, SQL, PageRank, Nutch indexing, Bayes, Kmeans, NWeight and enhanced DFSIO, etc. It also contains several streaming workloads for Spark Streaming, Flink, Storm and Gearpump.
 Micro Benchmarks These benchmarks consist of a few micro tasks for Hadoop to perform, which requires less resource and relatively faster to execute.</description>
     </item>
     
     <item>
       <title>Databases for Big Data</title>
-      <link>http://example.org/third/</link>
+      <link>https://president810.github.io/GEB2503_Project/third/</link>
       <pubDate>Tue, 01 Dec 2020 18:22:00 +0800</pubDate>
       
-      <guid>http://example.org/third/</guid>
+      <guid>https://president810.github.io/GEB2503_Project/third/</guid>
       <description>Databases for Big Data Nosql databases are very popular in industry nowadays, including Redis and HBase. Redis is one example of so-called No-sql, which means database that is not relational, and it stores the data in Key-Value format. HBase is a distributed scalable database, which is a part of Hadoop ecology. A brief introduction about what are these and how to use these tools to cope with the challenge brought by the big data era will be given here.</description>
     </item>
     
     <item>
       <title>Popular Tools for Bid Data</title>
-      <link>http://example.org/first/</link>
+      <link>https://president810.github.io/GEB2503_Project/first/</link>
       <pubDate>Mon, 30 Nov 2020 08:54:34 +0800</pubDate>
       
-      <guid>http://example.org/first/</guid>
+      <guid>https://president810.github.io/GEB2503_Project/first/</guid>
       <description>Tools for Bid Data Storage Fast-forward and a lot has changed. Over the last several years, the cost to purchase computing and storage resources has decreased dramatically. Aided by virtualization, commodity servers that could be clustered and blades that could be networked in a rack changed the economics of computing. This change coincided with innovation in software automation solutions that dramatically improved the manageability of these systems.
 The capability to leverage distributed computing and parallel processing techniques dramatically transformed the landscape and dramatically reduce latency.</description>
     </item>
     
     <item>
       <title>Lesson 101 of Big Data</title>
-      <link>http://example.org/second/</link>
+      <link>https://president810.github.io/GEB2503_Project/second/</link>
       <pubDate>Sun, 29 Nov 2020 17:05:41 +0800</pubDate>
       
-      <guid>http://example.org/second/</guid>
+      <guid>https://president810.github.io/GEB2503_Project/second/</guid>
       <description>Lesson 101 of Big Data Due to the advent of new technologies, devices, and communication means like social networking sites, the amount of data produced by mankind is growing rapidly every year. The amount of data produced by us from the beginning of time till 2003 was 5 billion gigabytes. If you pile up the data in the form of disks it may fill an entire football field. The same amount was created in every two days in 2011, and in every ten minutes in 2013.</description>
     </item>
     

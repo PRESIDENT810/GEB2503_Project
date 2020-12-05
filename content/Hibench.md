@@ -1,7 +1,6 @@
 ---
 title: "HiBench: a Big Data Benchmark Suite"
 date: 2020-12-01T20:51:41+08:00
-draft: true
 image: 'p5.jpg'
 ---
 

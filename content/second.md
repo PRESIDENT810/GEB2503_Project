@@ -1,7 +1,6 @@
 ---
 title: "Lesson 101 of Big Data"
 date: 2020-11-29T17:05:41+08:00
-draft: true
 image: 'p2.jpg'
 ---
 

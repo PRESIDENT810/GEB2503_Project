@@ -1,7 +1,6 @@
 ---
 title: "Databases for Big Data"
 date: 2020-12-01T18:22:00+08:00
-draft: true
 image: 'p4.png'
 ---
 

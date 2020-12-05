@@ -1,7 +1,6 @@
 ---
 title: "Popular Tools for Bid Data"
 date: 2020-11-30T08:54:34+08:00
-draft: true
 image: 'p3.jpg'
 ---
 

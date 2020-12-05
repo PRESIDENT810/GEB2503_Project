@@ -1,5 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "https://president810.github.io/GEB2503_Project/"
 languageCode = "en-us"
 title = "GEB2503 Smart City Blog"
-canonifyurls = true
+contentdir = "content"
+layoutdir = "layouts"
 publishDir = "docs"
+canonifyurls = true
+theme = "hugo-swift-theme"

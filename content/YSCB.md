@@ -1,7 +1,6 @@
 ---
 title: "YSCB: Yahoo Cloud Serving Benchmark"
 date: 2020-12-01T20:57:16+08:00
-draft: true
 image: 'p6.png'
 ---
 
