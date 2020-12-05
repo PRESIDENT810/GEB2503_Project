@@ -1,0 +1,5 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "GEB2503 Smart City Blog"
+canonifyurls = true
+publishDir = "docs"
