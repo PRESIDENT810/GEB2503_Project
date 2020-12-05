@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang='en'><head>
+  <title>Databases for Big Data | GEB2503 Smart City Blog</title>
+  <meta charset='utf-8'>
+  <meta name="generator" content="Hugo 0.70.0" />
+  <meta name = 'viewport' content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+  <meta http-equiv = 'X-UA-Compatible' content = 'IE=edge'>
+<meta property = 'og:locale' content = 'en_US' />
+<meta property="og:type" content="article">
+<meta property = 'og:title' content = 'Databases for Big Data' />
+<meta name="description" content="Databases for Big Data Nosql databases are very popular in industry nowadays, including Redis and HBase. Redis is one example of so-called No-sql, which means …">
+<meta property = 'og:description' content = 'Databases for Big Data Nosql databases are very popular in industry nowadays, including Redis and HBase. Redis is one example of so-called No-sql, which means …'>
+<meta property = 'og:url' content = 'http://example.org/third/' />
+<meta property = 'og:image' content = 'http://example.org/images/p4.png'/>
+<meta name = 'twitter:card' content = 'summary_large_image' />
+<meta name = 'twitter:creator' content = ''>
+<meta name = 'twitter:title' content = 'Databases for Big Data' />
+<meta property = 'twitter:description'  content = 'Databases for Big Data Nosql databases are very popular in industry nowadays, including Redis and HBase. Redis is one example of so-called No-sql, which means …'/>
+<meta name = 'twitter:image' content = 'http://example.org/images/p4.png' />
+<link rel='apple-touch-icon' sizes='180x180' href='http://example.org/images/icons/apple-touch-icon.png'>
+<link rel='icon' type='image/png' sizes='32x32' href='http://example.org/images/icons/favicon-32x32.png'>
+<link rel='icon' type='image/png' sizes='16x16' href='http://example.org/images/icons/favicon-16x16.png'>
+<link rel='manifest' href='http://example.org/images/icons/site.webmanifest'>
+
+  <link rel='canonical' href='http://example.org/third/'>
+  <link rel = 'stylesheet' href = 'http://example.org/css/styles.f29b59fde26c20ac66c7eece23f32198e5cccb77ff4cc5d05c00244aa1ac1441c2c2db7c47058e070a69f91e3caaba643c1f7bf3e4fb011e466dfb818117e295.css' integrity = 'sha512-8ptZ/eJsIKxmx&#43;7OI/MhmOXMy3f/TMXQXAAkSqGsFEHCwtt8RwWOBwpp&#43;R48qrpkPB978&#43;T7AR5GbfuBgRfilQ=='>
+</head>
+
+  <body><div class = 'nav-drop'>
+  <div class = 'nav-body'>
+    
+    <div class = 'nav-close'></div>
+  </div>
+</div><header class = 'nav' >
+  <nav class = 'nav-menu'>
+    <a href='http://example.org/' class = 'nav-brand nav_item'>GEB2503 Smart City Blog</a>
+    <div class = 'nav_bar-wrap'>
+      <div class = 'nav_bar'></div>
+    </div>
+  </nav>
+</header>
+
+
+    <main>
+
+<section class = 'post_header' style = 'background-image:url(http://example.org/images/p4.png);'>
+  <h1 class='post_title'>Databases for Big Data</h1>
+</section>
+<div class = 'post'>
+  <article class='post_content'><h1 id="databases-for-big-data">Databases for Big Data</h1>
+<p>Nosql databases are very popular in industry nowadays, including Redis and HBase. Redis is one example of so-called No-sql, which means database that is not relational, and it stores the data in Key-Value format. HBase is a distributed scalable database, which is a part of Hadoop ecology.
+A brief introduction about what are these and how to use these tools to cope with the challenge brought by the big data era will be given here.</p>
+<h2 id="redis-overview">Redis Overview</h2>
+<p>Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker. It supports data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes with radius queries and streams. Redis has built-in replication, Lua scripting, LRU eviction, transactions and different levels of on-disk persistence, and provides high availability via Redis Sentinel and automatic partitioning with Redis Cluster. Redis also supports various atomic operations on these types, like appending to a string; incrementing the value in a hash; pushing an element to a list; computing set intersection, union and difference; or getting the member with highest ranking in a sorted set.</p>
+<p>Redis popularized the idea of a system that can be considered at the same time a store and a cache, using a design where data is always modified and read from the main computer memory, but also stored on disk in a format that is unsuitable for random access of data, but only to reconstruct the data back in memory once the system restarts. At the same time, Redis provides a data model that is very unusual compared to a relational database management system (RDBMS). User commands do not describe a query to be executed by the database engine but rather specific operations that are performed on given abstract data types. Hence, data must be stored in a way which is suitable later for fast retrieval, without help from the database system in form of secondary indexes, aggregations or other common features of traditional RDBMS.</p>
+<p>In order to achieve its outstanding performance, Redis works with an in-memory dataset. Depending on your use case, you can persist it either by dumping the dataset to disk every once in a while, or by appending each command to a log. Persistence can be optionally disabled, if you just need a feature-rich, networked, in-memory cache.</p>
+<p>Redis also supports trivial-to-setup master-slave asynchronous replication, with very fast non-blocking first synchronization, auto-reconnection with partial resynchronization on net split. Redis also supports other features include:</p>
+<ul>
+<li>Transactions</li>
+<li>Pub/Sub</li>
+<li>Lua scripting</li>
+<li>Keys with a limited time-to-live</li>
+<li>LRU eviction of keys</li>
+<li>Automatic failover</li>
+</ul>
+<p>However, there is still some limitation regrading to Redis. For example, since Redis is an in-memory store with some persistency capabilities, all the dataset should fit in memory of the server; therefore, a single instance is limited by the maximum memory of your server. Due to its high-speed data io efficiency, Redis is still a good solution for caching, and it&rsquo;s possible to store a fragmentation of data for frequent use and access on Redis. But Redis is not suitable for storing the whole data, because a single Redis instance is not a distributed system but a remote centralized store. To solve this, people can use Redis to build a distributed storage system, and run it on a cluster.</p>
+<h2 id="apache-hbase-overview">Apache HBase Overview</h2>
+<p>Apache HBase is the Hadoop database, a distributed, scalable, big data store. Apache HBase is used when people need random, realtime read/write access to your Big Data. This goal of Apache HBase project is the hosting of very large tables &ndash; billions of rows X millions of columns &ndash; atop clusters of commodity hardware. It is an open-source, distributed, versioned, non-relational database modeled after Google&rsquo;s Bigtable: A Distributed Storage System for Structured Data by Chang et al. Just as Bigtable leverages the distributed data storage provided by the Google File System, Apache HBase provides Bigtable-like capabilities on top of Hadoop and HDFS.</p>
+<p>HBase is an open-source non-relational distributed database modeled after Google&rsquo;s Bigtable and written in Java. It is developed as part of Apache Software Foundation&rsquo;s Apache Hadoop project and runs on top of HDFS (Hadoop Distributed File System), providing Bigtable-like capabilities for Hadoop. That is, it provides a fault-tolerant way of storing large quantities of sparse data (small amounts of information caught within a large collection of empty or unimportant data, such as finding the 50 largest items in a group of 2 billion records, or finding the non-zero items representing less than 0.1% of a huge collection).</p>
+<p>HBase features compression, in-memory operation, and Bloom filters on a per-column basis as outlined in the original Bigtable paper. Tables in HBase can serve as the input and output for MapReduce jobs run in Hadoop, and may be accessed through the Java API but also through REST, Avro or Thrift gateway APIs. HBase is a wide-column store and has been widely adopted because of its lineage with Hadoop and HDFS. HBase runs on top of HDFS and is well-suited for faster read and write operations on large datasets with high throughput and low input/output latency.</p>
+<p>HBase is not a direct replacement for a classic SQL database, however Apache Phoenix project provides a SQL layer for HBase as well as JDBC driver that can be integrated with various analytics and business intelligence applications. The Apache Trafodion project provides a SQL query engine with ODBC and JDBC drivers and distributed ACID transaction protection across multiple statements, tables and rows that use HBase as a storage engine.</p>
+
+    
+  </article>
+  
+</div>
+<script src = 'http://example.org/js/autosize.min.js'></script>
+<script src = 'http://example.org/js/timeago.js'></script>
+    </main><svg width="0" height="0" class="hidden">
+  <symbol viewBox="0 0 699.428 699.428" xmlns="http://www.w3.org/2000/svg" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835s9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"
+    ></path>
+  </symbol>
+  <symbol viewBox="0 0 60.015 60.015" xmlns="http://www.w3.org/2000/svg" id="reply">
+    <path d="M42.007 0h-24c-9.925 0-18 8.075-18 18v14c0 9.59 7.538 17.452 17 17.973v8.344a1.694 1.694 0 0 0 1.699 1.698c.44 0 .873-.173 1.198-.498l1.876-1.876C26.708 52.713 33.259 50 40.227 50h1.78c9.925 0 18-8.075 18-18V18c0-9.925-8.075-18-18-18zm16 32c0 8.822-7.178 16-16 16h-1.78c-7.502 0-14.556 2.921-19.86 8.226l-1.359 1.359V44a1 1 0 1 0-2 0v3.949c-8.356-.52-15-7.465-15-15.949V18c0-8.822 7.178-16 16-16h24c8.822 0 16 7.178 16 16v14z"></path>
+  </symbol>
+</svg>
+<footer class = 'footer'>
+  <div class = 'footer_inner wrap pale'>
+    <p>&copy;&nbsp;<span class = 'year'></span>&nbsp;GEB2503 Smart City Blog.
+    Designed by  <a href = '<no value>' title = 'Linkedin Profile'><no value></a></p>
+  </div>
+</footer>
+<script src = 'http://example.org/js/index.min.3928965cd90bb755f840751443bb5f795e946fffea15e3b6ce6aec1394296bc4d8892e32af4a5265ad9f5f8849db76d3c66f10f72533e41873de1eaa09dd7575.js'></script>
+
+  </body>
+</html>

@@ -3,11 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://example.org/</loc>
+    <lastmod>2020-12-01T20:57:16+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>http://example.org/yscb/</loc>
+    <lastmod>2020-12-01T20:57:16+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/hibench/</loc>
+    <lastmod>2020-12-01T20:51:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/third/</loc>
+    <lastmod>2020-12-01T18:22:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/first/</loc>
+    <lastmod>2020-11-30T08:54:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/second/</loc>
+    <lastmod>2020-11-29T17:05:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
   </url>
   
   <url>
