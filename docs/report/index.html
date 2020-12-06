@@ -1,1419 +1,227 @@
 <!DOCTYPE html>
 <html lang='en'>
 <head>
-    <!-- KaTeX -->
-    <
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
-          integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
-            integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz"
-            crossorigin="anonymous"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
-            integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
-            onload="renderMathInElement(document.body);"></script>
-    </head>
-    < title > Report | GEB2503
-    Smart
-    City
-    Blog < /title>
-    < meta
-    charset = 'utf-8' >
-        < meta
-    name = "generator"
-    content = "Hugo 0.70.0" / >
-        < meta
-    name = 'viewport'
-    content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' >
-        < meta
-    http - equiv = 'X-UA-Compatible'
-    content = 'IE=edge' >
-        < meta
-    property = 'og:locale'
-    content = 'en_US' / >
-        < meta
-    property = "og:type"
-    content = "article" >
-        < meta
-    property = 'og:title'
-    content = 'Report' / >
-        < meta
-    name = "description"
-    content = "BigAgriculture: A Smart Farming System Supported By Big Data Infrastructures Kaining Zhong
-    The
-    Chinese
-    University
-    of
-    Hong
-    Kong, Shenzhen …">
-    < meta
-    property = 'og:description'
-    content = 'BigAgriculture: A Smart Farming System Supported By Big Data Infrastructures Kaining Zhong
-    The
-    Chinese
-    University
-    of
-    Hong
-    Kong, Shenzhen …'>
-    < meta
-    property = 'og:url'
-    content = 'https://president810.github.io/GEB2503_Project/report/' / >
-        < meta
-    property = 'og:image'
-    content = 'images/%!s()' / >
-        < meta
-    name = 'twitter:card'
-    content = 'summary_large_image' / >
-        < meta
-    name = 'twitter:creator'
-    content = '' >
-        < meta
-    name = 'twitter:title'
-    content = 'Report' / >
-        < meta
-    property = 'twitter:description'
-    content = 'BigAgriculture: A Smart Farming System Supported By Big Data Infrastructures Kaining Zhong
-    The
-    Chinese
-    University
-    of
-    Hong
-    Kong, Shenzhen …'/>
-    < meta
-    name = 'twitter:image'
-    content = 'images/%!s()' / >
-        < link
-    rel = 'apple-touch-icon'
-    sizes = '180x180'
-    href = 'https://president810.github.io/GEB2503_Project/images/icons/apple-touch-icon.png' >
-        < link
-    rel = 'icon'
-    type = 'image/png'
-    sizes = '32x32'
-    href = 'https://president810.github.io/GEB2503_Project/images/icons/favicon-32x32.png' >
-        < link
-    rel = 'icon'
-    type = 'image/png'
-    sizes = '16x16'
-    href = 'https://president810.github.io/GEB2503_Project/images/icons/favicon-16x16.png' >
-        < link
-    rel = 'manifest'
-    href = 'https://president810.github.io/GEB2503_Project/images/icons/site.webmanifest' >
-
-        < link
-    rel = 'canonical'
-    href = 'https://president810.github.io/GEB2503_Project/report/' >
-        < link
-    rel = 'stylesheet'
-    href = 'https://president810.github.io/GEB2503_Project/css/styles.f29b59fde26c20ac66c7eece23f32198e5cccb77ff4cc5d05c00244aa1ac1441c2c2db7c47058e070a69f91e3caaba643c1f7bf3e4fb011e466dfb818117e295.css'
-    integrity = 'sha512-8ptZ/eJsIKxmx&#43;7OI/MhmOXMy3f/TMXQXAAkSqGsFEHCwtt8RwWOBwpp&#43;R48qrpkPB978&#43;T7AR5GbfuBgRfilQ==' >
-        < /head>
-
-        < body >
-        < div
-    class
-    = 'nav-drop' >
-        < div
-    class
-    = 'nav-body' >
-
-        < div
-    class
-    = 'nav-close' > < /div>
-        < /div>
-        < /div>
-        < header
-    class
-    = 'nav' >
-        < nav
-    class
-    = 'nav-menu' >
-        < a
-    href = 'https://president810.github.io/GEB2503_Project/'
-    class
-    = 'nav-brand nav_item' > GEB2503
-    Smart
-    City
-    Blog < /a>
-    < div
-    class
-    = 'nav_bar-wrap' >
-        < div
-    class
-    = 'nav_bar' > < /div>
-        < /div>
-        < /nav>
-        < /header>
+    <title>Report | GEB2503 Smart City Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
 
 
-        < main >
+    <meta charset='utf-8'>
+    <meta name="generator" content="Hugo 0.70.0"/>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta property='og:locale' content='en_US'/>
+    <meta property="og:type" content="article">
+    <meta property='og:title' content='Report'/>
+    <meta name="description" content="BigAgriculture: A Smart Farming System Supported By Big Data Infrastructures Kaining Zhong
+The Chinese University of Hong Kong, Shenzhen …">
+    <meta property='og:description' content='BigAgriculture: A Smart Farming System Supported By Big Data Infrastructures Kaining Zhong
+The Chinese University of Hong Kong, Shenzhen …'>
+    <meta property='og:url' content='https://president810.github.io/GEB2503_Project/report/'/>
+    <meta property='og:image' content='images/%!s()'/>
+    <meta name='twitter:card' content='summary_large_image'/>
+    <meta name='twitter:creator' content=''>
+    <meta name='twitter:title' content='Report'/>
+    <meta property='twitter:description' content='BigAgriculture: A Smart Farming System Supported By Big Data Infrastructures Kaining Zhong
+The Chinese University of Hong Kong, Shenzhen …'/>
+    <meta name='twitter:image' content='images/%!s()'/>
+    <link rel='apple-touch-icon' sizes='180x180'
+          href='https://president810.github.io/GEB2503_Project/images/icons/apple-touch-icon.png'>
+    <link rel='icon' type='image/png' sizes='32x32'
+          href='https://president810.github.io/GEB2503_Project/images/icons/favicon-32x32.png'>
+    <link rel='icon' type='image/png' sizes='16x16'
+          href='https://president810.github.io/GEB2503_Project/images/icons/favicon-16x16.png'>
+    <link rel='manifest' href='https://president810.github.io/GEB2503_Project/images/icons/site.webmanifest'>
 
+    <link rel='canonical' href='https://president810.github.io/GEB2503_Project/report/'>
+    <link rel='stylesheet'
+          href='https://president810.github.io/GEB2503_Project/css/styles.f29b59fde26c20ac66c7eece23f32198e5cccb77ff4cc5d05c00244aa1ac1441c2c2db7c47058e070a69f91e3caaba643c1f7bf3e4fb011e466dfb818117e295.css'
+          integrity='sha512-8ptZ/eJsIKxmx&#43;7OI/MhmOXMy3f/TMXQXAAkSqGsFEHCwtt8RwWOBwpp&#43;R48qrpkPB978&#43;T7AR5GbfuBgRfilQ=='>
+</head>
 
-        < section
-    class
-    = 'post_header'
-    style = 'background-image:url(https://president810.github.io/GEB2503_Project/images/thumbnail.svg);' >
-        < h1
-    class
-    = 'post_title' > Report < /h1>
-        < /section>
-        < div
-    class
-    = 'post' >
-        < article
-    class
-    = 'post_content' > < h2
-    id = "bigagriculture-a-smart-farming-system-supported-by-big-data-infrastructures" > BigAgriculture
-    :
-    A
-    Smart
-    Farming
-    System
-    Supported
-    By
-    Big
-    Data
-    Infrastructures < /h2>
-    < p > Kaining
-    Zhong < /p>
-    < p > The
-    Chinese
-    University
-    of
-    Hong
-    Kong, Shenzhen < /p>
-    < p > < a
-    href = "mailto:117010420@link.cuhk.edu.cn" > 117010420
-    @link.cuhk.edu.cn<
-    /a></
-    p >
-    < h3
-    id = "abstraction" > Abstraction < /h3>
-        < p > Traditional
-    agriculture
-    is
-    facing
-    many
-    challenges in order
-    to
-    adapt
-    to
-    the
-    growing
-    scale
-    of
-    farming.For
-    example, when
-    the
-    size
-    of
-    planting
-    is
-    huge, it
-    is
-    impractical
-    for farmers to
-    know
-    the
-    specific
-    detail
-    of
-    each
-    part
-    of
-    their
-    land;
-    therefore, it
-    is
-    difficult
-    to
-    improve
-    the
-    precision
-    of
-    farming.With
-    big
-    data
-    and
-    Internet
-    of
-    Things(IoT)
-    device, it
-    becomes
-    possible
-    for farmers to
-    know
-    the
-    condition
-    precisely,
-        and
-    fertilize
-    the
-    lands
-    according
-    to
-    their
-    condition.With
-    technologies
-    like
-    GPS
-    and
-    sensors, farmers
-    are
-    able
-    to
-    monitor
-    the
-    temperature, light, humidity
-    condition
-    at
-    all
-    times;
-    thus
-    reduce
-    labor
-    and
-    cost.In
-    this
-    paper, we
-    proposed
-    a
-    smart
-    farming
-    system
-    that
-    can
-    benefit
-    farmers
-    to
-    monitor
-    the
-    environment,
-        and
-    make
-    predictions
-    about
-    the
-    pest, output.By
-    utilizing
-    the
-    power
-    of
-    data
-    science, various
-    machine
-    learning
-    algorithms
-    can
-    be
-    applied
-    to
-    smart
-    agriculture, and
-    improve
-    the
-    overall
-    efficiency
-    of
-    farming. < /p>
-    < h3
-    id = "overview-of-bigagriculture" > Overview
-    of
-    BigAgriculture < /h3>
-    < p > To
-    give
-    a
-    brief
-    overview
-    of
-    our
-    BigAgriculture
-    system, we
-    first
-    need
-    to
-    define
-    what
-    is
-    smart
-    farming, and
-    then
-    argue
-    how
-    our
-    BigAgriculture
-    system
-    facilitate
-    its
-    operation.According
-    the
-    description in < em > Scientific
-    development
-    of
-    smart
-    farming
-    technologies
-    and
-    their
-    application in Brazil < /em> (D. Pivoto), smart
-    farming
-    is
-    based
-    on
-    the
-    incorporation
-    of
-    information
-    and
-    communication
-    technologies
-    into
-    machinery,
-        equipment, and
-    sensors in agricultural
-    production
-    systems.It
-    allows
-    a
-    large
-    volume
-    of
-    data
-    and
-    information
-    to
-    be
-    generated
-    with progressive insertion
-    of
-    automation
-    into
-    the
-    process.To
-    better
-    serve
-    smart
-    farming, we
-    proposed
-    BigAgriculture, an
-    aggregated
-    system
-    for smart farming.BigAgriculture
-    allows
-    farmers
-    to
-    conveniently
-    get
-    access
-    to
-    environmental
-    information
-    of
-    their
-    land, and
-    give
-    prediction
-    about
-    the
-    output
-    of
-    their
-    farm, the
-    severity
-    of
-    pest, etc.using
-    machine
-    learning
-    algorithms.In
-    addition, we
-    also
-    provides
-    visualization
-    of
-    these
-    results, which
-    gives
-    farmers
-    an
-    intuitive
-    understanding
-    about
-    how
-    the
-    situation
-    is.There
-    are
-    a
-    few
-    major
-    components
-    of
-    BigAgriculture:<
-    /p>
-    < ul >
-    < li > Sensor < /li>
-    < /ul>
-    < p > Sensor
-    is
-    an
-    important
-    link in IoT
-    infrastructure, where
-    it
-    can
-    detect
-    various
-    factors
-    of
-    environments
-    nearby, such as temperature, light, humidity.It
-    can
-    also
-    detect
-    the
-    chemical
-    materials in soils.By
-    connecting
-    to
-    LAN
-    of
-    WAN, sensors
-    are
-    able
-    to
-    send
-    data
-    to
-    a
-    central
-    server, which
-    is
-    often
-    on
-    the
-    cloud. < /p>
-    < ul >
-    < li > Software < /li>
-    < /ul>
-    < p > Software
-    is
-    used
-    to
-    collect
-    informations
-    provided
-    by
-    sensors, and
-    do the analysis as well as
-    visualization.For
-    BigAgriculture
-    system, we
-    decide
-    to
-    use
-    open
-    source
-    programs.For
-    big
-    data
-    application, we
-    use
-    Apache
-    Hadoop as our
-    distributed
-    system
-    to
-    store
-    data
-    sent
-    by
-    sensors.Since
-    the
-    amount
-    of
-    data
-    is
-    significantly
-    large, it
-    is
-    impractical
-    to
-    store
-    all
-    the
-    on
-    a
-    single
-    device, and
-    this
-    is
-    why
-    we
-    want
-    to
-    use
-    distributed
-    system.For
-    data
-    analysis, we
-    use
-    Tensorflow
-    to
-    do the prediction,
-        which
-    is
-    a
-    very
-    popular
-    deep
-    learning
-    framework
-    that
-    enable
-    us
-    to
-    implement
-    various
-    machine
-    learning
-    algorithms.As
-    for visualization, we use
-    Python & rsquo;
-    s
-    matplotlib
-    and
-    seaborn
-    library. < /p>
-    < ul >
-    < li > Connectivity < /li>
-    < /ul>
-    < p > To
-    allow
-    our
-    sensors
-    to
-    send
-    data
-    to
-    our
-    cloud
-    servers, we
-    decide
-    to
-    use
-    LoRa as our
-    communication
-    network.The
-    reason
-    why
-    we
-    are
-    using
-    LoRa
-    is
-    because
-    it
-    can
-    cover
-    range
-    of
-    a
-    few
-    kilometers, which
-    is
-    greater
-    than
-    cellular
-    network.It
-    is
-    also
-    designed
-    for devices that
-    require
-    low
-    power
-    and
-    low
-    cost.In
-    BigAgriculture
-    system, we
-    would
-    like
-    to
-    provide
-    convenience
-    to
-    farmers as much as possible, and
-    we
-    do
-        not want
-    them
-    to
-    replace
-    battery
-    of
-    our
-    IoT
-    sensors
-    frequently.Therefore, LoRa
-    becomes
-    our
-    first
-    choice
-    for communication network.In
-    addition, considering
-    the
-    farm
-    often
-    being
-    a
-    very
-    large
-    area, the
-    advantage
-    that
-    LoRa
-    is
-    able
-    to
-    transmit
-    data
-    over
-    a
-    wide
-    area
-    also
-    benefits
-    a
-    lot
-    to
-    our
-    BigAgriculture
-    system. < /p>
-    < h3
-    id = "optimization-problem-for-data-transmission" > Optimization
-    Problem
-    for Data Transmission < /h3>
-    < p > The
-    main
-    problem
-    for data transmission
-    is
-    that
-    each
-    sensor
-    transmit
-    its
-    data
-    to
-    the
-    central
-    server
-    using
-    LoRa, whereas
-    a
-    sensor
-    standing
-    right
-    next
-    to
-    the
-    central
-    server
-    can
-    easily
-    overwhelm
-    another
-    sensor
-    far
-    away
-    at
-    the
-    edge
-    of
-    the
-    cell.This
-    is
-    called
-    Near
-    Far
-    Problem.To
-    solve
-    this
-    problem, we
-    use
-    Linear
-    Programming
-    to
-    solve
-    this
-    problem. < /p>
-    < p > We
-    define < /p>
-    < p > $$SIR_i =\frac
-    {
-        G_
-        {
-            ii
-        }
-        p_i
-    }
-    {\sum_
-        {
-            i\ne
-            j
-        }
-        G_
-        {
-            ij
-        }
-        p_j + n_i
-    }
-    $$ < /p>
-    < p > Where
-    G
-    is
-    the
-    channel
-    gain, and
-    p
-    is
-    the
-    power. < /p>
-    < p > Our
-    objective
-    is
-    to
-    minimize
-    the
-    overall
-    power
-    usage,
-    while ensure signal
-    intensity
-    received
-    for each
-        sensor
-    is
-    above
-    its
-    minimum
-    threshold:<
-    /p>
-    < p > $$
-    min \sum_i
-    p_i
-    $$ < /p>
-    < p > $$
-    subject\ to\ SIR_i(p) \ge \gamma_i, \forall\ i
-    $$ < /p>
-    < p > This
-    is
-    a
-    linear
-    programming
-    problem, and
-    we
-    can
-    solve
-    it
-    with optimization algorithms. < /p>
-    < h3
-    id = "big-data-infrastructure-for-bigagriculture" > Big
-    Data
-    Infrastructure
-    for BigAgriculture < /h3>
-        < p > To better
-    manipulate
-    huge
-    data
-    collected
-    by
-    sensors, we
-    need
-    a
-    realible
-    distributed
-    system
-    to
-    store
-    these
-    data
-    and
-    do the computation.Apache
-    Hadoop
-    is
-    a
-    very
-    popular
-    distributed
-    system
-    framework, and
-    provides
-    many
-    useful
-    components, such as HDFS, MapReduce
-    and
-    HBase. < /p>
-    < p > The
-    Hadoop
-    Distributed
-    File
-    System(HDFS)
-    is
-    part
-    of
-    the
-    Apache
-    Hadoop
-    Core
-    project.It
-    is
-    a
-    distributed
-    file
-    system
-    designed
-    to
-    run
-    on
-    commodity
-    hardware.It
-    has
-    many
-    similarities
-    with existing distributed
-    file
-    systems.However, the
-    differences
-    from
-    other
-    distributed
-    file
-    systems
-    are
-    significant.HDFS
-    is
-    highly
-    fault - tolerant
-    and
-    is
-    designed
-    to
-    be
-    deployed
-    on
-    low - cost
-    hardware.HDFS
-    provides
-    high
-    throughput
-    access
-    to
-    application
-    data
-    and
-    is
-    suitable
-    for applications that
-    have
-    large
-    data
-    sets.HDFS
-    relaxes
-    a
-    few
-    POSIX
-    requirements
-    to
-    enable
-    streaming
-    access
-    to
-    file
-    system
-    data. < /p>
-    < p > Hadoop
-    MapReduce
-    is
-    a
-    software
-    framework
-    for easily writing
-    applications
-    which
-    process
-    vast
-    amounts
-    of
-    data(multi - terabyte
-    data - sets
-    ) in
-    -parallel
-    on
-    large
-    clusters(thousands
-    of
-    nodes
-    )
-    of
-    commodity
-    hardware
-    in a
-    reliable, fault - tolerant
-    manner. < /p>
-    < p > Apache
-    HBase
-    is
-    used
-    when
-    you
-    need
-    random, realtime
-    read / write
-    access
-    to
-    your
-    Big
-    Data.This
-    project & rsquo;
-    s
-    goal
-    is
-    the
-    hosting
-    of
-    very
-    large
-    tables & ndash;
-    billions
-    of
-    rows
-    with millions of
-    columns & ndash;
-    atop
-    clusters
-    of
-    commodity
-    hardware.Apache
-    HBase
-    is
-    an
-    open - source, distributed, versioned, non - relational
-    database
-    modeled
-    after
-    Google & rsquo;
-    s
-    Bigtable: A
-    Distributed
-    Storage
-    System
-    for Structured Data
-    by
-    Chang
-    et
-    al.Just as Bigtable
-    leverages
-    the
-    distributed
-    data
-    storage
-    provided
-    by
-    the
-    Google
-    File
-    System,
-        Apache
-    HBase
-    provides
-    Bigtable - like
-    capabilities
-    on
-    top
-    of
-    Hadoop
-    and
-    HDFS. < /p>
-    < p > In
-    our
-    BigAgriculture
-    system, Apache
-    Hadoop
-    servers as the
-    overall
-    big
-    data
-    infrastructure.We
-    use
-    HDFS
-    to
-    store
-    huge
-    agriculture
-    data, and
-    use
-    Hadoop
-    MapReduce
-    to
-    aggregate
-    all
-    the
-    data
-    for computation.If
-        we
-    need
-    to
-    query
-    data in realtime, we
-    can
-    use
-    HBase
-    to
-    provide
-    database
-    service.By
-    combining
-    these
-    tools, we
-    can
-    achieve
-    a
-    basic
-    cloud
-    service
-    for big agriculture
-    data, and
-    thus
-    facilitate
-    data
-    analysis
-    and
-    visualization. < /p>
-    < h3
-    id = "regression-problem-for-prediction" > Regression
-    Problem
-    for Prediction < /h3>
-        < p > As central
-    server
-    receive
-    environmental
-    information, and
-    then
-    we
-    can
-    use
-    this
-    information
-    to
-    infer
-    the
-    output
-    of
-    the
-    land, and
-    whether
-    it
-    suffers
-    from
-    pests. < /p>
-    < p > Take
-    the
-    example
-    of
-    making
-    prediction
-    of
-    the
-    output, we
-    will
-    use
-    Linear
-    Regression
-    algorithm.Suppose
-    data
-    such as temperature, light, humidity
-    are
-    labeled as the
-    independent
-    variables \(x_1, x_2 & hellip;
-    x_n\),
-    and
-    the
-    output
-    of
-    the
-    land
-    is
-    the
-    dependent
-    variable \(y\),
-    we
-    can
-    use
-    historical
-    data
-    to
-    train
-    our
-    linear
-    regression
-    model, and
-    then
-    make
-    prediction
-    about
-    the
-    future
-    output.To
-    train
-    our
-    model, we
-    first
-    use
-    Maximum
-    Likelihood
-    Estimation(MLE)
-    to
-    make
-    parameter
-    estimation.Suppose
-    we
-    have(m)
-    historical
-    data
-    of
-    independent
-    variables \(x_
-    {
-        11
-    }
-    ,
-    x_
-    {
-        12
-    }
-    &
-    hellip;
-    x_
-    {
-        1n
-    }\dots\ x_
-    {
-        m1
-    }
-    ,
-    x_
-    {
-        m2
-    }
-    &
-    hellip;
-    x_
-    {
-        mn
-    }\)
-    denoted
-    by
-    a
-                \(m\times
-    n\)
-    matrix \(X\)
-    and
-    their
-    corresponding
-    dependent
-    variables \(y_1, y_2 & hellip;
-    y_m\),
-    denoted
-    by
-    a
-    vector \(y\)
-    with length of \(m\). Linear
-    Regression
-    model
-    assume
-    there
-    exists
-    a
-    linear
-    relationship
-    between
-    independent
-    variables
-    and
-    dependent
-    variables: \
-    (y_i = w ^ Tx_i +\epsilon_i\),
-    where \(\epsilon_i\)
-    follows
-    normal
-    distribution.By
-    MLE, we
-    can
-    estimate \(\hat
-    w = (X ^ TX) ^ { - 1
-    }
-    X ^ Ty\),
-    and
-    then
-    we
-    can
-    make
-    predictions. < /p>
-    < p > With
-    various
-    machine
-    learning
-    algorithm, farmers
-    can
-    easily
-    estimate
-    their
-    payoff
-    of
-    farming, and
-    better
-    plan
-    for the future.It
-    is
-    the
-    same
-    for predict whether
-    their
-    land
-    suffers
-    from
-    pests,
-    with Logistic
-        Regression
-    instead
-    of
-    Linear
-    Regression. < /p>
-    < h3
-    id = "conclusion" > Conclusion < /h3>
-        < p > In
-    the
-    era
-    of
-    big
-    data, the
-    importance
-    of
-    utilizing
-    various
-    advanced
-    cloud
-    computing
-    tools
-    becomes
-    more
-    and
-    more
-    critical.By
-    utilizing
-    the
-    power
-    of
-    sensors, open
-    source
-    softwares
-    and
-    communication
-    network,
-        our
-    BigAgriculture
-    system
-    provides
-    one - stop
-    service
-    to
-    collect, store, analyze
-    and
-    visualize
-    agriculture
-    data.By
-    machine
-    learning
-    algorithms & rsquo;
-    s
-    prediction, farmers
-    can
-    grasp
-    a
-    better
-    understanding
-    of
-    their
-    land, without
-    the
-    necessity
-    of
-    actually
-    visiting
-    the
-    field.With
-    our
-    BigAgriculture
-    system, it
-    is
-    undoubted
-    that
-    the
-    efficiency
-    of
-    smart
-    farming
-    will
-    be
-    further
-    improved, and
-    the
-    cost
-    for labor will
-    be
-    considerably
-    reduced. < /p>
+<body>
+<div class='nav-drop'>
+    <div class='nav-body'>
 
-
-    < /article>
-
-    < /div>
-    < script
-    src = 'https://president810.github.io/GEB2503_Project/js/autosize.min.js' ></script>
-    <script src='https://president810.github.io/GEB2503_Project/js/timeago.js'></script>
-    </main>
-    <svg width="0" height="0" class="hidden">
-        <symbol viewBox="0 0 699.428 699.428" xmlns="http://www.w3.org/2000/svg" id="copy">
-            <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835s9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"
-            ></path>
-        </symbol>
-        <symbol viewBox="0 0 60.015 60.015" xmlns="http://www.w3.org/2000/svg" id="reply">
-            <path d="M42.007 0h-24c-9.925 0-18 8.075-18 18v14c0 9.59 7.538 17.452 17 17.973v8.344a1.694 1.694 0 0 0 1.699 1.698c.44 0 .873-.173 1.198-.498l1.876-1.876C26.708 52.713 33.259 50 40.227 50h1.78c9.925 0 18-8.075 18-18V18c0-9.925-8.075-18-18-18zm16 32c0 8.822-7.178 16-16 16h-1.78c-7.502 0-14.556 2.921-19.86 8.226l-1.359 1.359V44a1 1 0 1 0-2 0v3.949c-8.356-.52-15-7.465-15-15.949V18c0-8.822 7.178-16 16-16h24c8.822 0 16 7.178 16 16v14z"></path>
-        </symbol>
-    </svg>
-    <footer class='footer'>
-        <div class='footer_inner wrap pale'>
-            <p>&copy;&nbsp;<span class='year'></span>&nbsp;GEB2503 Smart City Blog.
-                Designed by <a href='<no value>' title='Linkedin Profile'>
-                    <no value>
-                </a></p>
+        <div class='nav-close'></div>
+    </div>
+</div>
+<header class='nav'>
+    <nav class='nav-menu'>
+        <a href='https://president810.github.io/GEB2503_Project/' class='nav-brand nav_item'>GEB2503 Smart City Blog</a>
+        <div class='nav_bar-wrap'>
+            <div class='nav_bar'></div>
         </div>
-    </footer>
-    <script src='https://president810.github.io/GEB2503_Project/js/index.min.70e38ff84f8f27c0c233541e50a3a1ed881fb264546642c5af4719880fc64a387c0d71aa82fd9b39e72a0cf6c8ff08ff6da1b71740e3b210e77c36f2bdb888e9.js'></script>
-    <script>
-        renderMathInElement(
-            document.body,
-            {
-                delimiters: [
-                    {left: "$$", right: "$$", display: true},
-                    {left: "\\[", right: "\\]", display: true},
-                    {left: "$", right: "$", display: false},
-                    {left: "\\(", right: "\\)", display: false}
-                ]
-            }
-        );
+    </nav>
+</header>
+
+
+<main>
+
+
+    <section class='post_header'
+             style='background-image:url(https://president810.github.io/GEB2503_Project/images/thumbnail.svg);'>
+        <h1 class='post_title'>Report</h1>
+    </section>
+    <div class='post'>
+        <article class='post_content'><h2
+                id="bigagriculture-a-smart-farming-system-supported-by-big-data-infrastructures">BigAgriculture: A Smart
+            Farming System Supported By Big Data Infrastructures</h2>
+            <p>Kaining Zhong</p>
+            <p>The Chinese University of Hong Kong, Shenzhen</p>
+            <p><a href="mailto:117010420@link.cuhk.edu.cn">117010420@link.cuhk.edu.cn</a></p>
+            <h3 id="abstraction">Abstraction</h3>
+            <p>Traditional agriculture is facing many challenges in order to adapt to the growing scale of farming. For
+                example, when the size of planting is huge, it is impractical for farmers to know the specific detail of
+                each part of their land; therefore, it is difficult to improve the precision of farming. With big data
+                and Internet of Things (IoT) device, it becomes possible for farmers to know the condition precisely,
+                and fertilize the lands according to their condition. With technologies like GPS and sensors, farmers
+                are able to monitor the temperature, light, humidity condition at all times; thus reduce labor and cost.
+                In this paper, we proposed a smart farming system that can benefit farmers to monitor the environment,
+                and make predictions about the pest, output. By utilizing the power of data science, various machine
+                learning algorithms can be applied to smart agriculture, and improve the overall efficiency of
+                farming.</p>
+            <h3 id="overview-of-bigagriculture">Overview of BigAgriculture</h3>
+            <p>To give a brief overview of our BigAgriculture system, we first need to define what is smart farming, and
+                then argue how our BigAgriculture system facilitate its operation. According the description in <em>Scientific
+                    development of smart farming technologies and their application in Brazil</em> (D. Pivoto), smart
+                farming is based on the incorporation of information and communication technologies into machinery,
+                equipment, and sensors in agricultural production systems. It allows a large volume of data and
+                information to be generated with progressive insertion of automation into the process. To better serve
+                smart farming, we proposed BigAgriculture, an aggregated system for smart farming. BigAgriculture allows
+                farmers to conveniently get access to environmental information of their land, and give prediction about
+                the output of their farm, the severity of pest, etc. using machine learning algorithms. In addition, we
+                also provides visualization of these results, which gives farmers an intuitive understanding about how
+                the situation is. There are a few major components of BigAgriculture:</p>
+            <ul>
+                <li>Sensor</li>
+            </ul>
+            <p>Sensor is an important link in IoT infrastructure, where it can detect various factors of environments
+                nearby, such as temperature, light, humidity. It can also detect the chemical materials in soils. By
+                connecting to LAN of WAN, sensors are able to send data to a central server, which is often on the
+                cloud.</p>
+            <ul>
+                <li>Software</li>
+            </ul>
+            <p>Software is used to collect informations provided by sensors, and do the analysis as well as
+                visualization. For BigAgriculture system, we decide to use open source programs. For big data
+                application, we use Apache Hadoop as our distributed system to store data sent by sensors. Since the
+                amount of data is significantly large, it is impractical to store all the on a single device, and this
+                is why we want to use distributed system. For data analysis, we use Tensorflow to do the prediction,
+                which is a very popular deep learning framework that enable us to implement various machine learning
+                algorithms. As for visualization, we use Python&rsquo;s matplotlib and seaborn library.</p>
+            <ul>
+                <li>Connectivity</li>
+            </ul>
+            <p>To allow our sensors to send data to our cloud servers, we decide to use LoRa as our communication
+                network. The reason why we are using LoRa is because it can cover range of a few kilometers, which is
+                greater than cellular network. It is also designed for devices that require low power and low cost. In
+                BigAgriculture system, we would like to provide convenience to farmers as much as possible, and we do
+                not want them to replace battery of our IoT sensors frequently. Therefore, LoRa becomes our first choice
+                for communication network. In addition, considering the farm often being a very large area, the
+                advantage that LoRa is able to transmit data over a wide area also benefits a lot to our BigAgriculture
+                system.</p>
+            <h3 id="optimization-problem-for-data-transmission">Optimization Problem for Data Transmission</h3>
+            <p>The main problem for data transmission is that each sensor transmit its data to the central server using
+                LoRa, whereas a sensor standing right next to the central server can easily overwhelm another sensor far
+                away at the edge of the cell. This is called Near Far Problem. To solve this problem, we use Linear
+                Programming to solve this problem.</p>
+            <p>We define</p>
+            <p>$$SIR_i=\frac{G_{ii}p_i}{\sum_{i\ne j}G_{ij}p_j+n_i}$$</p>
+            <p>Where G is the channel gain, and p is the power.</p>
+            <p>Our objective is to minimize the overall power usage, while ensure signal intensity received for each
+                sensor is above its minimum threshold:</p>
+            <p>$$ min \sum_i p_i $$</p>
+            <p>$$ subject\ to\ SIR_i(p) \ge \gamma_i, \forall\ i $$</p>
+            <p>This is a linear programming problem, and we can solve it with optimization algorithms.</p>
+            <h3 id="big-data-infrastructure-for-bigagriculture">Big Data Infrastructure for BigAgriculture</h3>
+            <p>To better manipulate huge data collected by sensors, we need a realible distributed system to store these
+                data and do the computation. Apache Hadoop is a very popular distributed system framework, and provides
+                many useful components, such as HDFS, MapReduce and HBase.</p>
+            <p>The Hadoop Distributed File System (HDFS) is part of the Apache Hadoop Core project. It is a distributed
+                file system designed to run on commodity hardware. It has many similarities with existing distributed
+                file systems. However, the differences from other distributed file systems are significant. HDFS is
+                highly fault-tolerant and is designed to be deployed on low-cost hardware. HDFS provides high throughput
+                access to application data and is suitable for applications that have large data sets. HDFS relaxes a
+                few POSIX requirements to enable streaming access to file system data.</p>
+            <p>Hadoop MapReduce is a software framework for easily writing applications which process vast amounts of
+                data (multi-terabyte data-sets) in-parallel on large clusters (thousands of nodes) of commodity hardware
+                in a reliable, fault-tolerant manner.</p>
+            <p>Apache HBase is used when you need random, realtime read/write access to your Big Data. This project&rsquo;s
+                goal is the hosting of very large tables &ndash; billions of rows with millions of columns &ndash; atop
+                clusters of commodity hardware. Apache HBase is an open-source, distributed, versioned, non-relational
+                database modeled after Google&rsquo;s Bigtable: A Distributed Storage System for Structured Data by
+                Chang et al. Just as Bigtable leverages the distributed data storage provided by the Google File System,
+                Apache HBase provides Bigtable-like capabilities on top of Hadoop and HDFS.</p>
+            <p>In our BigAgriculture system, Apache Hadoop servers as the overall big data infrastructure. We use HDFS
+                to store huge agriculture data, and use Hadoop MapReduce to aggregate all the data for computation. If
+                we need to query data in realtime, we can use HBase to provide database service. By combining these
+                tools, we can achieve a basic cloud service for big agriculture data, and thus facilitate data analysis
+                and visualization.</p>
+            <h3 id="regression-problem-for-prediction">Regression Problem for Prediction</h3>
+            <p>As central server receive environmental information, and then we can use this information to infer the
+                output of the land, and whether it suffers from pests.</p>
+            <p>Take the example of making prediction of the output, we will use Linear Regression algorithm. Suppose
+                data such as temperature, light, humidity are labeled as the independent variables \(x_1, x_2&hellip;x_n\),
+                and the output of the land is the dependent variable \(y\), we can use historical data to train our linear
+                regression model, and then make prediction about the future output. To train our model, we first use
+                Maximum Likelihood Estimation (MLE) to make parameter estimation. Suppose we have (m) historical data of
+                independent variables \(x_{11}, x_{12}&hellip;x_{1n}\dots\ x_{m1}, x_{m2}&hellip;x_{mn}\) denoted by a
+                \(m\times n\) matrix \(X\) and their corresponding dependent variables \(y_1, y_2&hellip;y_m\), denoted by a
+                vector \(y\) with length of \(m\). Linear Regression model assume there exists a linear relationship between
+                independent variables and dependent variables: \(y_i=w^Tx_i+\epsilon_i\), where \(\epsilon_i\) follows
+                normal distribution. By MLE, we can estimate \(\hat w=(X^TX)^{-1}X^Ty\), and then we can make
+                predictions.</p>
+            <p>With various machine learning algorithm, farmers can easily estimate their payoff of farming, and better
+                plan for the future. It is the same for predict whether their land suffers from pests, with Logistic
+                Regression instead of Linear Regression.</p>
+            <h3 id="conclusion">Conclusion</h3>
+            <p>In the era of big data, the importance of utilizing various advanced cloud computing tools becomes more
+                and more critical. By utilizing the power of sensors, open source softwares and communication network,
+                our BigAgriculture system provides one-stop service to collect, store, analyze and visualize agriculture
+                data. By machine learning algorithms&rsquo;s prediction, farmers can grasp a better understanding of
+                their land, without the necessity of actually visiting the field. With our BigAgriculture system, it is
+                undoubted that the efficiency of smart farming will be further improved, and the cost for labor will be
+                considerably reduced.</p>
+
+
+        </article>
+
+    </div>
+    <script src='https://president810.github.io/GEB2503_Project/js/autosize.min.js'></script>
+    <script src='https://president810.github.io/GEB2503_Project/js/timeago.js'></script>
+</main>
+<svg width="0" height="0" class="hidden">
+    <symbol viewBox="0 0 699.428 699.428" xmlns="http://www.w3.org/2000/svg" id="copy">
+        <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835s9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"
+        ></path>
+    </symbol>
+    <symbol viewBox="0 0 60.015 60.015" xmlns="http://www.w3.org/2000/svg" id="reply">
+        <path d="M42.007 0h-24c-9.925 0-18 8.075-18 18v14c0 9.59 7.538 17.452 17 17.973v8.344a1.694 1.694 0 0 0 1.699 1.698c.44 0 .873-.173 1.198-.498l1.876-1.876C26.708 52.713 33.259 50 40.227 50h1.78c9.925 0 18-8.075 18-18V18c0-9.925-8.075-18-18-18zm16 32c0 8.822-7.178 16-16 16h-1.78c-7.502 0-14.556 2.921-19.86 8.226l-1.359 1.359V44a1 1 0 1 0-2 0v3.949c-8.356-.52-15-7.465-15-15.949V18c0-8.822 7.178-16 16-16h24c8.822 0 16 7.178 16 16v14z"></path>
+    </symbol>
+</svg>
+<footer class='footer'>
+    <div class='footer_inner wrap pale'>
+        <p>&copy;&nbsp;<span class='year'></span>&nbsp;GEB2503 Smart City Blog.
+            Designed by <a href='<no value>' title='Linkedin Profile'>
+                <no value>
+            </a></p>
+    </div>
+</footer>
+<script src='https://president810.github.io/GEB2503_Project/js/index.min.70e38ff84f8f27c0c233541e50a3a1ed881fb264546642c5af4719880fc64a387c0d71aa82fd9b39e72a0cf6c8ff08ff6da1b71740e3b210e77c36f2bdb888e9.js'></script>
+<script>
+      renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "\\[", right: "\\]", display: true},
+                  {left: "$", right: "$", display: false},
+                  {left: "\\(", right: "\\)", display: false}
+              ]
+          }
+      );
     </script>
-    </body>
+</body>
 </html>
