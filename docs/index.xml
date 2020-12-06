@@ -6,10 +6,22 @@
     <description>Recent content on GEB2503 Smart City Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 20:57:16 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 06 Dec 2020 19:39:49 +0800</lastBuildDate>
     
 	<atom:link href="https://president810.github.io/GEB2503_Project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Report</title>
+      <link>https://president810.github.io/GEB2503_Project/report/</link>
+      <pubDate>Sun, 06 Dec 2020 19:39:49 +0800</pubDate>
+      
+      <guid>https://president810.github.io/GEB2503_Project/report/</guid>
+      <description>BigAgriculture: A Smart Farming System Supported By Big Data Infrastructures Kaining Zhong
+The Chinese University of Hong Kong, Shenzhen
+117010420@link.cuhk.edu.cn
+Abstraction Traditional agriculture is facing many challenges in order to adapt to the growing scale of farming. For example, when the size of planting is huge, it is impractical for farmers to know the specific detail of each part of their land; therefore, it is difficult to improve the precision of farming.</description>
+    </item>
     
     <item>
       <title>YSCB: Yahoo Cloud Serving Benchmark</title>
