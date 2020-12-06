@@ -19,23 +19,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/Report.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="246">
-                <caret line="77" column="976" selection-start-line="77" selection-start-column="976" selection-end-line="77" selection-end-column="976" />
+              <first_editor relative-caret-position="1463">
+                <caret line="77" column="1000" selection-start-line="77" selection-start-column="1000" selection-end-line="77" selection-end-column="1000" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/report/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="114">
+              <caret line="6" column="224" lean-forward="true" selection-start-line="6" selection-start-column="224" selection-end-line="6" selection-end-column="224" />
+              <folding>
+                <element signature="n#style#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6495#6502#0" expanded="true" />
+                <element signature="e#9541#9548#0" expanded="true" />
+                <element signature="e#9591#9598#0" expanded="true" />
+                <element signature="e#9641#9648#0" expanded="true" />
+                <element signature="e#9786#9793#0" expanded="true" />
+                <element signature="e#10923#10931#0" expanded="true" />
+                <element signature="e#11285#11293#0" expanded="true" />
+                <element signature="e#11320#11328#0" expanded="true" />
+                <element signature="e#11425#11433#0" expanded="true" />
+                <element signature="e#12406#12413#0" expanded="true" />
+                <element signature="e#14765#14771#0" expanded="true" />
+                <element signature="e#14771#14777#0" expanded="true" />
+                <element signature="e#14805#14811#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,8 +90,8 @@
         <option value="$PROJECT_DIR$/content/third.md" />
         <option value="$PROJECT_DIR$/content/YSCB.md" />
         <option value="$PROJECT_DIR$/docs/index.html" />
-        <option value="$PROJECT_DIR$/docs/report/index.html" />
         <option value="$PROJECT_DIR$/content/Report.md" />
+        <option value="$PROJECT_DIR$/docs/report/index.html" />
       </list>
     </option>
   </component>
@@ -96,17 +112,6 @@
             <path>
               <item name="Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,15 +166,16 @@
       <workItem from="1607168362826" duration="47000" />
       <workItem from="1607168412933" duration="29000" />
       <workItem from="1607171731109" duration="1407000" />
-      <workItem from="1607254716003" duration="2388000" />
+      <workItem from="1607254716003" duration="3033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11560000" />
+    <option name="totallyTimeSpent" value="12205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19384836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -384,20 +390,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/report/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/Report.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="246">
-            <caret line="77" column="976" selection-start-line="77" selection-start-column="976" selection-end-line="77" selection-end-column="976" />
+          <first_editor relative-caret-position="1463">
+            <caret line="77" column="1000" selection-start-line="77" selection-start-column="1000" selection-end-line="77" selection-end-column="1000" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/report/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="224" lean-forward="true" selection-start-line="6" selection-start-column="224" selection-end-line="6" selection-end-column="224" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6495#6502#0" expanded="true" />
+            <element signature="e#9541#9548#0" expanded="true" />
+            <element signature="e#9591#9598#0" expanded="true" />
+            <element signature="e#9641#9648#0" expanded="true" />
+            <element signature="e#9786#9793#0" expanded="true" />
+            <element signature="e#10923#10931#0" expanded="true" />
+            <element signature="e#11285#11293#0" expanded="true" />
+            <element signature="e#11320#11328#0" expanded="true" />
+            <element signature="e#11425#11433#0" expanded="true" />
+            <element signature="e#12406#12413#0" expanded="true" />
+            <element signature="e#14765#14771#0" expanded="true" />
+            <element signature="e#14771#14777#0" expanded="true" />
+            <element signature="e#14805#14811#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
